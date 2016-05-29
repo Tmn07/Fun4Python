@@ -7,4 +7,7 @@
 
 - [markdown](https://github.com/waylan/Python-Markdown/)
 - [markdown2](https://github.com/trentm/python-markdown2)
+- service那一块。
+  - 服务到底是啥嘞。。
+  - 对了，有机会好好研究下注册表那块。都是现查添右键菜单233。。
 - wtf..正体不明

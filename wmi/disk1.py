@@ -37,6 +37,7 @@ def get_fs_info() :
                  tmpdict["FreeSpace"] = long(logical_disk.FreeSpace)/1024/1024/1024 
                  tmpdict["Percent"] = int(100.0*(long(logical_disk.Size)-long(logical_disk.FreeSpace))/long(logical_disk.Size)) 
                  tmplist.append(tmpdict) 
+                 # print long(logical_disk.FreeSpace)/1024.0/1024/1024
      return tmplist 
 if __name__ == "__main__": 
      disk = get_disk_info() 
