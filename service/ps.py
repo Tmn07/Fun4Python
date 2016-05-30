@@ -54,8 +54,10 @@ class PythonService(win32serviceutil.ServiceFramework):
     def SvcDoRun(self):  
         import time  
         self.logger.error("svc do run....")   
+        t = 0
         while self.isAlive:  
-            self.logger.error("I am alive.")  
+            self.logger.error("having start "+str(t)+"s")  
+            t+=1
             time.sleep(1)  
 
         #win32event.WaitForSingleObject(self.hWaitStop, win32event.INFINITE)   
