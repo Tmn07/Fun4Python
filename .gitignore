@@ -64,3 +64,4 @@ target/
 # setup
 *.exe
 papapa
+*config.py
