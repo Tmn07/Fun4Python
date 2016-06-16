@@ -19,3 +19,9 @@ a,b= 1 2
 from p1 import *
 a,b= 3 4
 ```
+
+- > import x
+  >
+  > import x.p1
+  >
+  > print x.p1.a
